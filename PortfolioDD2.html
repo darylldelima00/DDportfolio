@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .me{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5rem;
+        }
+
+        .aboutme{
+            padding: 5rem;
+
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .projects{
+            line-height: 2;
+        }
+
+         
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;    
+        
+        }
+        .project-card {     
+            background: #E1D9D1;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 2480px;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+
+        }
+        
+        }
+        .imgzm{
+            display:flex;
+            transition: transform .2s;
+        }
+            .imgzm:hover{                
+            transform: scale(1.5)
+
+            }
+
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        @media (max-width: 800px) {
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hi I'm Daryll</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="me">
+    <img src="assets/me.png"  width="500" height="500" alt="me1">
+</div>
+<div class="aboutme">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a Pre-Press Graphic Designer with 5 years of experience. I have strong skills in Adobe Creative Suite. In my previous role, I focused</p>
+            <p1>on checking and correcting design files for color accuracy, image resolution, font embedding, and layout consistency.</p1>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects">
+        <h3>My Work Designs</h3>
+         <h4>Highlights from my past work and various small creative projects.</h4>
+    </div>
+      <div class="project-card"> 
+    <div class="project-list"> 
+             
+               <div class="imgzm">
+                
+                 <img src="assets/1.jpg"  width="400" height="400" alt="1">
+                
+                </div>
+
+               <div class="imgzm">
+            
+                 <img src="assets/2.jpg"  width="400" height="400" alt="2">
+                 
+                </div>
+               <div class="imgzm">
+                
+                 <img src="assets/3.jpg"  width="300" height="500" alt="3">
+                 
+                </div>
+          
+        
+               <div class="imgzm">
+                
+             
+                 <img src="assets/4.jpg"  width="800" height="300" alt="4">
+                 
+                </div>
+          
+         
+               <div class="imgzm">
+                
+             
+                 <img src="assets/5.jpg"  width="300" height="400" alt="5">
+                 
+                </div>
+           
+               <div class="imgzm">
+            
+                 <img src="assets/6.jpg"  width="300" height="400" alt="6">
+                
+                </div>
+          
+
+         
+               <div class="imgzm">
+                 <img src="assets/7.jpg"   width="1200" height="300" alt="7">
+                </div>
+            </div>
+          </div>
+
+    </section>
+
+    <section id="contact">
+        <h5>Contact</h5>
+        <p>Email: <a href="mailto:you@example.com">Darylldelima1@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
